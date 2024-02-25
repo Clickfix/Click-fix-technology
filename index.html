@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Fix Technology</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #ff6c00;
+            position: static;
+        }
+
+        .jumbotron {
+            background-image: url(black.png);
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .services-section {
+            padding: 50px 0;
+        }
+
+        .service-item {
+            text-align: center;
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: #007bff;
+        }
+
+        /* .contact-section {
+            padding: 50px 0;
+            background-color: #fff;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+        }
+        .row-contact{
+            display: inline;
+
+        } */
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .contact-info,
+  .contact-form {
+    float: left;
+    width: 50%;
+  }
+  
+  .contact-info h2,
+  .contact-form h2 {
+    margin-top: 0;
+  }
+  
+  .contact-info address {
+    margin-top: 20px;
+  }
+  
+  .contact-form form {
+    margin-top: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;margin-bottom: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info,
+    .contact-form {
+      width: 100%;
+    }
+  }
+  
+        .portfolio-section {
+            padding: 50px 0;
+        }
+
+        .portfolio-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .portfolio-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+        /* footer section */
+        .footer {
+            background-color: #080807;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            color: #f8f9fa;
+            margin-bottom: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Click Fix Technology</a>
+        <img src="brand-logo.png" height="50px" width="50px" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">laptops</a>
+                      <a class="dropdown-item" href="#">Printers</a>
+                      <a class="dropdown-item" href="#">Networking</a>
+                      <a class="dropdown-item" href="#">Maintenace</a>
+                      
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h1>Welcome to Click Fix Technology</h1>
+        <p>Your one-stop destination for all your laptop needs</p>
+    </div>
+
+    <div id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128187;</span>
+                        <h3>Laptop Sales</h3>
+                        <img src="https://i.pinimg.com/564x/ac/60/a4/ac60a4251cdbe0cfbe3eb7b7efb15d41.jpg" height="300" width="300" alt="">
+                        <p>Explore our wide range of new and refurbished laptops</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128295;</span>
+                        <h3>Laptop Repair</h3>
+                        <img src="https://i.pinimg.com/564x/34/d2/a1/34d2a18c95af46ed07e3c5c77b81aa2d.jpg" height="300" width="300" alt="repair">
+                        <p>Expert repair services for all laptop brands and models</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128421;</span>
+                        <h3>
+                          <a href="Accessories.html">Accessories</a>  
+                        </h3>
+                        <img src="https://i.pinimg.com/564x/0e/ab/20/0eab20e43bf1ef7aecab56334c70d56e.jpg" height="300" width="300" alt="">
+                        <p>Find the perfect accessories to complement your laptop</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128421;</span>
+                        <h3>Printers</h3>
+                        <img src="https://i.pinimg.com/236x/fc/90/c5/fc90c5cbe4acdb31971368cde36fce10.jpg" height="300" width="300" alt="">
+                        <h2>Find the perfect accessories to complement your laptop</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">	&#xf233;</span>
+                        <h3>Networking</h3>
+                        <img src="https://i.pinimg.com/236x/58/3d/5f/583d5f9647bfbfe5de4b74086122ca7d.jpg" height="300" width="300" alt="">
+                        <p>Find the perfect accessories to complement your laptop</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <span class="service-icon">&#128421;</span>
+                        <h3>Part Replacement</h3>
+                        <img src="https://i.pinimg.com/236x/f3/77/ce/f377ce1b2b3280224a6fb70cb969f7ef.jpg" height="300" width="300" alt="">
+                        <p>Find the perfect accessories to complement your laptop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container portfolio-section" id="portfolio">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/originals/e6/f6/04/e6f6043a37334ade6f78f87e3a4c4dd1.jpg" alt="Laptop" class="portfolio-image">
+                    <p>Huge Discounts🔥 HP EliteBook x360 1030 G3 Intel Core i7 8th Gen 8GB RAM 512GB SSD 13.3” touchscreen Backlit keyboard Face ID & Fingerprint login</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/564x/de/ed/25/deed253acd87293fb8521060626a87dc.jpg" alt="Desktop" class="portfolio-image">
+                    <p>Lenovo Flex 14IWL 2-in-1 14" Touch-Screen Laptop Intel Core i5 8GB Memory 128GB SSD</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/564x/f4/67/9d/f4679d2be8d8d970ecc0d513b0a2ef36.jpg" alt="Accessories" class="portfolio-image">
+                    <h2></h2>
+                    <p>Dell's XPS 13 was our favorite laptop of 2015. Now, the 2-in-1 version has swept us off our feet. It's thinner, but maintains a great keyboard</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/564x/30/23/29/302329079020422bb53cbbf2302babcc.jpg" alt="Laptop" class="portfolio-image">
+                    <h2>DELL XPS 13.3</h2>
+                    <P></P>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/564x/74/f3/d2/74f3d28df2cb364cccd93d3540075641.jpg" alt="Desktop" class="portfolio-image">
+                    <H3>LENOVO YOGA C740</H3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/564x/b2/d0/1d/b2d01db2dbfddda0a172586159f0e69d.jpg" alt="Accessories" class="portfolio-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section class="contact">
+        <div class="container-contact">
+          <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us with any questions, comments, or feedback!</p>
+            <address>
+              <strong>Company Details</strong><br>
+              30 Oke Street<br>
+              Pedro, Lagos ZIP<br>
+              Nigeria<br>
+            </address>
+          </div>
+          <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form action="#" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Click Fix Technology. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
